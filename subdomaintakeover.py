@@ -13,9 +13,6 @@ import urlparse
 import requests
 
 # -- common services
-# -- Add new services
-# -- {'NAME SERVICE' : {'code':'[300-499]','error':'ERROR HERE'}}
-# -- https://github.com/EdOverflow/can-i-take-over-xyz
 
 services = {
 	'AWS/S3'     : {'code':'[300-499]','error':r'The specified bucket does not exit'},
